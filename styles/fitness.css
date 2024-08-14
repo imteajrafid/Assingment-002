@@ -139,4 +139,12 @@ margin-right: 300px;
   }
 
   
-  
+  @media screen and max-wdith(576px) { 
+    .full-banner,
+    .navbar,
+    .banner,
+
+    {
+        flex-direction: column;
+    }
+  }
