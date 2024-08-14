@@ -138,6 +138,10 @@ margin-right: 300px;
     font-family: Brush Script MT', cursive;
   }
 
+  .two-part{
+background-color: black;
+
+  }
   
   @media screen and max-wdith(576px) { 
     .full-banner,
@@ -148,3 +152,53 @@ margin-right: 300px;
         flex-direction: column;
     }
   }
+  /* 2nd part */
+  .section{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.section-one, .section-two {
+    display: block;
+}
+.change{
+  color: rgba(255, 255, 255, 1);
+ text-align: center;
+}
+.pa{
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+.name{
+ color: rgba(255, 255, 255, 1);
+ font-size: small;
+}
+.discription{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: smaller;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile {
+  text-align: center;
+  margin: 1px;
+}
+
+.circle-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.white{
+  color: rgba(255, 255, 255, 1);
+}
+
+
+
