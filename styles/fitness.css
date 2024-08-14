@@ -1,0 +1,142 @@
+.display-flex{
+display: flex;
+}
+
+/* navbar */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-link{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+.home{
+    justify-content: space-between;
+}
+
+.fitness{
+   color:  rgba(230, 83, 60, 1);
+   font-weight:bolder;
+   font-size: 1.5rem;
+   font-style: italic;
+ 
+
+}
+
+/* banner */
+.get{
+color: rgba(255, 255, 255, 1);    
+}
+
+.full-banner{
+    background-color: rgba(17, 17, 17, 1);
+    width: 1440px;
+     height: 715px; 
+    margin: 0 auto;
+}
+.pa{
+   color:rgba(255, 255, 255, 0.5) ; 
+}
+.banner{
+    align-items: center;
+   margin-left: 300px;
+
+    
+}
+.orange{
+    color: rgba(230, 83, 60, 1);
+}
+.btn-primary{
+    background-color: rgba(230, 83, 60, 1);
+    color: rgba(255, 255, 255, 1);
+}
+.btn{
+    background-color: black;
+    color: rgba(255, 255, 255, 1);
+}
+
+/* .btn-1{ 
+filter: blur(1px);
+color:rgba(255, 255, 255, 1) ;
+background-color: black;
+width: 206px;
+height: 96px;
+margin-right: 300px;
+}
+
+#card{
+    padding: 45px 42px;
+    margin-left: -100px;
+    margin-top: -100px;
+    
+ } */
+ body {
+    background-image: url('your-background-image.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .small-card {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Dark background with transparency */
+    backdrop-filter: blur(10px); /* Blur effect */
+    border-radius: 8px;
+    padding: 10px 15px;
+    color: white;
+    font-family: Arial, sans-serif;
+    max-width: 200px;
+    margin-top: -100px;
+    /* margin-left: -100px; */
+  }
+  
+  .red-dot {
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .text-content strong {
+    font-size: 18px;
+    margin-right: 5px;
+  }
+  
+  .text-content p {
+    margin: 0;
+    font-size: 14px;
+  }
+  #five{
+    color: rgba(255, 255, 255, 1);
+    font-size: large;
+    font-weight: 800;
+    
+
+  }
+  #four{
+    color: rgba(255, 255, 255, 0.65);
+  }
+  
+  .work{
+    /* background-color: black; */
+    background-size:auto;
+    backdrop-filter: 50px;
+    /* margin-bottom: -100px; */
+  }
+  .shape{
+    font-family: Brush Script MT', cursive;
+  }
+
+  
+  
